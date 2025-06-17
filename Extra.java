@@ -18,7 +18,7 @@ public class Extra {
     }
     public boolean equals(Object obj) {
         if (this == obj) return true;
-        if (!(obj instanceof Extra)) return false; // equals() override and block that logically checks for whether or not the values in the name field are quivelant or not and prints that when called on in the main class
+        if (!(obj instanceof Extra)) return false; //block that logically checks for whether or not the values in the name field are quivelant or not and prints that when called on in the main class
         Extra other = (Extra) obj;
         if (name == null) {
             return other.name == null;
